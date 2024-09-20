@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import {
   Navbar as NextUINavbar,
   NavbarContent,
@@ -7,10 +8,10 @@ import {
   NavbarItem,
   NavbarMenuItem,
 } from "@nextui-org/navbar";
-import { Button } from "@nextui-org/button";
-import { Kbd } from "@nextui-org/kbd";
+// import { Button } from "@nextui-org/button";
+// import { Kbd } from "@nextui-org/kbd";
 import { Link } from "@nextui-org/link";
-import { Input } from "@nextui-org/input";
+// import { Input } from "@nextui-org/input";
 import { link as linkStyles } from "@nextui-org/theme";
 import NextLink from "next/link";
 import clsx from "clsx";
@@ -18,7 +19,7 @@ import clsx from "clsx";
 import { siteConfig } from "@/src/config/site";
 import { ThemeSwitch } from "@/src/components/UI/theme-switch";
 import { Logo } from "@/src/components/icons";
-import { Avatar } from "@nextui-org/avatar";
+// import { Avatar } from "@nextui-org/avatar";
 import NavbarDropdown from "./NavbarDropdown";
 
 export const Navbar = () => {

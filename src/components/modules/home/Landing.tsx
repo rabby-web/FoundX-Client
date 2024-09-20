@@ -3,7 +3,7 @@ import { SearchIcon } from "../../icons";
 
 export default function Landing() {
   return (
-    <div className="h-[calc(100vh-64px)] bg-[url('/glass.jpg')] bg-cover bg-center">
+    <div className="h-[calc(60vh-64px)] bg-[url('/glass.jpg')] bg-cover bg-center">
       <div className="pt-32 max-w-xl flex-1 mx-auto">
         <form className="flex-1">
           <Input
